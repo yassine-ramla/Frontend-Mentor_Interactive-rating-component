@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution {
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: white;
+}
+
+.container {
+    width: 90vmin;
+    height: fit-content;
+    padding: 5vmin;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 2.5fr 2fr 3fr 3fr 3fr;
+    background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(214, 13%, 11%));
+}
+
+.container h1 {
+    color: white;
+}
+
+.container p {
+    font-size: 15px;
+    margin: 2vmin 0;
+}
+
+.scale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step {
+    width: 12vmin;
+    height: 12vmin;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scale .step:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+button {
+    width: 100%;
+    height: fit-content;
+    padding: 5vmin;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 10vmin;
+    margin: auto;
+}
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+@media only screen and (min-width: 500px) {    
+    .container {
+        width: fit-content;
+        height: fit-content;
+        min-height: 350px;
+        padding: min(30px, 5vmin);
+        border-radius: 20px;
+        display: grid;
+        grid-template-rows: 9.25vmin 2fr 3fr 10vmin 2fr;
+    }
+    
+    .container h1 {
+        margin-top: auto;
+    }
+    
+    .container p {
+        width: 50vmin;
+    }
+    
+    .scale {
+        width: 50vmin;
+    }
+    
+    .step {
+        width: 7.5vmin;
+        height: 7.5vmin;
+    }
+    
+    button {
+        width: 100%;
+        height: 75%;
+        padding: 0;
+        transform: translate(0, 25%);
+    }
+}
