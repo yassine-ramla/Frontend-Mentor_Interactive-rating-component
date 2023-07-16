@@ -17,20 +17,20 @@ body {
     justify-content: center;
 }
 
-.attribution {
+footer {
     text-align: center;
     margin: 20px 50px;
 }
 
-.attribution a {
+footer a {
     text-decoration: none;
 }
 
-.attribution a:hover {
+footer a:hover {
     color: white;
 }
 
-.container {
+main {
     width: 90vmin;
     height: fit-content;
     padding: 8vmin 5vmin;
@@ -40,7 +40,7 @@ body {
     background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(214, 13%, 11%));
 }
 
-.container img {
+main img {
     justify-self: center;
 }
 
@@ -57,17 +57,17 @@ body {
     color: hsl(25, 97%, 53%);
 }
 
-.container h1 {
+main h1 {
     color: white;
 }
 
-.container p {
+main p {
     font-size: 15px;
     margin: 2vmin 0;
 }
 
 @media only screen and (min-width: 500px) {
-    .container {
+    main {
         width: fit-content;
         max-width: 550px;
         height: 60vmin;
@@ -75,11 +75,11 @@ body {
         padding: 6vmin 4vmin;
     }
 
-    .container h1 {
+    main h1 {
         margin: auto;
     }
 
-    .container p {
+    main p {
         width: 50vmin;
         max-width: 400px;
     }
@@ -88,7 +88,7 @@ body {
         padding: min(2vmin, 25px);
     }
 
-    .container h1 {
+    main h1 {
         margin-bottom: 0;
     }
 }

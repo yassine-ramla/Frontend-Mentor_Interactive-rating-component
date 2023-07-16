@@ -40,6 +40,7 @@ Users should be able to:
 
 ### Built with
 
+- symantic HTML properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow

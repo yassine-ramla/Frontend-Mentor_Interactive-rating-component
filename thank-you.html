@@ -17,7 +17,7 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <div class="container">
+    <main>
       <img src="./images/illustration-thank-you.svg" alt="thank you" />
       <div class="rate">You selected <span id="rate">0</span> out of 5</div>
       <h1>Thank you!</h1>
@@ -25,8 +25,8 @@
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
-    </div>
-    <div class="attribution">
+    </main>
+    <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
@@ -36,7 +36,7 @@
         target="_blank"
         >yassine-ramla</a
       >.
-    </div>
+    </footer>
     <script>
       document.getElementById("rate").innerHTML = window.localStorage.getItem("rate");
     </script>

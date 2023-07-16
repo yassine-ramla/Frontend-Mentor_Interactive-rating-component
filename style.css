@@ -16,20 +16,20 @@ body {
     justify-content: center;
 }
 
-.attribution {
+footer {
     text-align: center;
     margin: 20px 50px;
 }
 
-.attribution a {
+footer a {
     text-decoration: none;
 }
 
-.attribution a:hover {
+footer a:hover {
     color: white;
 }
 
-.container {
+main {
     width: 90vmin;
     height: fit-content;
     padding: 5vmin;
@@ -39,11 +39,11 @@ body {
     background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(214, 13%, 11%));
 }
 
-.container h1 {
+main h1 {
     color: white;
 }
 
-.container p {
+main p {
     font-size: 15px;
     margin: 2vmin 0;
 }
@@ -88,7 +88,7 @@ button:hover {
 }
 
 @media only screen and (min-width: 500px) {    
-    .container {
+    main {
         width: fit-content;
         height: fit-content;
         min-height: 350px;
@@ -98,11 +98,11 @@ button:hover {
         grid-template-rows: 9.25vmin 2fr 3fr 10vmin 2fr;
     }
     
-    .container h1 {
+    main h1 {
         margin-top: auto;
     }
     
-    .container p {
+    main p {
         width: 50vmin;
     }
     
